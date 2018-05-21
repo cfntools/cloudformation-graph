@@ -19,5 +19,7 @@ setup(
             'cfn-graph = cfn_graph.cli:main',
         ]
     },
-
+    install_requires=[
+          'graphviz',
+      ],
 )
